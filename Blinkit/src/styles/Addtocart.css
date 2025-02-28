@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.button-container p {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.add-to-cart {
+  background-color: rgb(22 164 74);
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  padding: 0.3rem;
+}

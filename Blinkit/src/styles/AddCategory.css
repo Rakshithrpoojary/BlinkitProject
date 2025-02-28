@@ -1,0 +1,68 @@
+.category-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    rgba(4, 3, 3, 0.927),
+    rgba(4, 3, 3, 0.927),
+    rgba(4, 3, 3, 0.927),
+    rgba(4, 3, 3, 0.927)
+  );
+  z-index: 9999;
+}
+.category-overlay form {
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid black;
+  width: 30%;
+  justify-self: center;
+  position: relative;
+  top: 30%;
+  /* max-height: 45vh; */
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.category-overlay form p {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 700;
+}
+#fileUpload {
+  display: none;
+}
+.category-overlay form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #edf6ff;
+}
+.category-overlay form label p {
+  font-size: 3rem;
+  color: red;
+}
+.category-overlay form button {
+  background-color: initial;
+  padding: 0.5rem;
+  width: 50%;
+  border: none;
+  background-color: #125a34;
+  font-family: "Inter";
+  font-weight: 700;
+  color: white;
+}
+#category_name {
+  background-color: #edf6ff;
+  width: 50%;
+  padding: 0.5rem;
+  font-family: "Inter";
+  border: 2px solid green;
+  border-radius: 0.3rem;
+}

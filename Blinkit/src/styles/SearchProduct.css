@@ -1,0 +1,15 @@
+.search-product {
+  display: flex;
+  position: relative;
+}
+.search-product input {
+  padding: 0.4rem 0.4rem 0.4rem 2rem;
+  background-color: #edf6ff;
+  border-radius: 0.3rem;
+  border: 2px solid whitesmoke;
+}
+
+.search-product p {
+  position: absolute;
+  margin: 0.5rem;
+}

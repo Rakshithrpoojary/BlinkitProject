@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neucha&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.edit-account-details-container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem;
+  font-family: "Poppins";
+}
+.edit-account-details-container input {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #edf6ff;
+}
+#profilename {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #edf6ff;
+}
+.edit-account-details-container button {
+  padding: 1rem;
+  background-color: white;
+  border: 2px solid #f7c205;
+  color: #f7c205;
+  border-radius: 0.4rem;
+}

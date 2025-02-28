@@ -1,0 +1,54 @@
+.address-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.add-adress-btn {
+  color: #ffbf00;
+  position: relative;
+  width: 95%;
+  padding: 1rem;
+  background-color: initial;
+  border-radius: 0.5rem;
+  border: 2px solid #ffbf00;
+  justify-self: center;
+  cursor: pointer;
+  justify-self: center;
+  margin-left: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+@media only screen and (max-width: 1200px) {
+  .add-adress-btn {
+    width: 50%;
+    align-self: center;
+  }
+  .address-container {
+    background-color: white;
+  }
+  .display-address {
+    border: 1px solid black;
+  }
+}
+.add-adress-btn:hover {
+  transform: scale(1.03);
+}
+.display-address {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  font-family: "Inter";
+  border-radius: 0.3rem;
+}
+.address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.edit-delete {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}

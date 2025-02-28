@@ -1,0 +1,71 @@
+.searchproduct-display {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  overflow-x: scroll;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.searchproduct-display img {
+  width: 200px;
+  height: 200px;
+}
+.searchcategory-info {
+  width: 200px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  border: 1px solid rgb(212, 206, 206);
+  border-radius: 0.4rem;
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 1200px) {
+  .searchcategory-info {
+    width: 80%;
+  }
+}
+.searchdiscount-time {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+.searchdiscount-time p {
+  color: green;
+  font-family: sans-serif;
+  background-color: #dcfce7;
+}
+.searchproduct-description {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.searchquantity {
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-align: left;
+}
+.searchprice-cart-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+.searchproduct-price {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+#no-results-found {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 700;
+}

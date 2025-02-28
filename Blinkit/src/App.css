@@ -1,0 +1,16 @@
+.home-container {
+  margin: 2rem 0rem;
+  padding: 1rem;
+  /* border: 1px solid black; */
+  height: auto;
+  width: 90%;
+  justify-self: center;
+  /* box-shadow: 0px 00px 00px 1000px #edf6ff; */
+}
+@media only screen and (max-width: 1200px) {
+  .home-container {
+    width: 100%;
+    padding: 0;
+    margin: 1rem 0rem;
+  }
+}

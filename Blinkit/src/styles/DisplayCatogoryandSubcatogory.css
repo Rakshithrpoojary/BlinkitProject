@@ -1,0 +1,45 @@
+.DisplayCatogoryandSubcatogory-conatiner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.product-cat-name-conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+#display-cat-name-in-sub {
+  background-color: white;
+  width: 95%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(64, 64, 64);
+  box-shadow: 0 10px 5px rgb(209, 201, 201);
+}
+#menu {
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  .product-cat-name-conatiner {
+    margin-top: -1.5rem;
+    width: 100%;
+  }
+  #display-cat-name-in-sub {
+    position: fixed;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    gap: 1rem;
+    z-index: 999;
+  }
+  #menu {
+    display: block;
+  }
+}

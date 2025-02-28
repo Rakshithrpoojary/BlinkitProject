@@ -1,0 +1,38 @@
+.SubcatogoryScrollbar-container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-height: 100vh;
+  overflow-y: scroll;
+  border-right: none;
+}
+@media only screen and (max-width: 1200px) {
+  .SubcatogoryScrollbar-container {
+    position: fixed;
+    border-right: 1px solid black;
+    z-index: 9999;
+    height: 90vh;
+    width: 70vw;
+    margin-top: 2rem;
+    /* display: none; */
+  }
+}
+.individual-ubcatogoryScrollbar-container {
+  display: flex;
+  border-bottom: 1px solid rgb(230, 227, 227);
+  align-items: center;
+  gap: 2rem;
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+#subcat-img {
+  width: 100px;
+}
+#subcat-name {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+}

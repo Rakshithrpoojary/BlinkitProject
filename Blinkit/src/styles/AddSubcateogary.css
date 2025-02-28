@@ -1,0 +1,67 @@
+.subcateogary-overlay {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 20%;
+  left: 0;
+  height: 100vh;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  height: 100%;
+  z-index: 999; */
+}
+.subcateogary-overlay form {
+  width: 30%;
+  position: relative;
+  justify-self: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 0.3rem;
+  z-index: 999;
+  box-shadow: 100px 100px 2000px 3000px rgba(0, 0, 0, 0.858);
+  font-family: "Inter";
+}
+.subcateogary-overlay form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subcateogary-overlay form label p {
+  color: green;
+  font-size: 3rem;
+}
+#uploadsubcateogaryfile {
+  display: none;
+}
+.heading {
+  font-weight: 700;
+}
+#entersubcateogaryname {
+  padding: 0.5rem;
+  width: 80%;
+  background-color: #edf6ff;
+  border: 2px solid whitesmoke;
+}
+.subcateogary-overlay select {
+  padding: 0.5rem;
+  width: 80%;
+  background-color: #edf6ff;
+  border: 2px solid whitesmoke;
+}
+.subcateogary-overlay button {
+  width: 60%;
+  padding: 0.5rem;
+  font-family: "Inter";
+  font-weight: 700;
+  border: 2px solid red;
+  background-color: initial;
+  border-radius: 0.3rem;
+}

@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Add this to your global CSS (App.css, index.css, or styles.css) */
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #edf6ff;
+}
+::-webkit-scrollbar {
+  display: none;
+}

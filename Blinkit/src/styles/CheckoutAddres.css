@@ -1,0 +1,33 @@
+.checkout-address-container {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  height: 50vh;
+  overflow: scroll;
+}
+.checkout-add-adress-btn {
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  color: green;
+  background-color: initial;
+  font-weight: 600;
+  align-self: center;
+}
+.checkout-display-address {
+  display: flex;
+  gap: 3rem;
+  border: 1px solid rgb(218, 214, 214);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.address-full {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.checkout-address-list {
+}

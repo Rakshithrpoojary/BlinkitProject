@@ -1,0 +1,49 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 0.3rem;
+  justify-self: center;
+  padding: 2rem;
+  background-color: white;
+}
+.login-container input {
+  margin: 1rem 0rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #edf6ff;
+}
+.login-container span {
+  display: flex;
+  position: relative;
+}
+.login-container span p {
+  position: absolute;
+  float: left;
+  left: 90%;
+  top: 35%;
+}
+.login-container span input {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.login-container button {
+  background-color: #6a7280;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+#register {
+  text-decoration: none;
+  color: green;
+}
+#forgot-password {
+  text-decoration: none;
+  justify-self: center;
+  color: black;
+  margin-bottom: 0.5rem;
+  float: left;
+}

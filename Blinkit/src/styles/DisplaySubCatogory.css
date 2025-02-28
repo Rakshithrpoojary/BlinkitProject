@@ -1,0 +1,47 @@
+.display-subcatogory {
+  background-color: white;
+  padding: 1rem;
+  max-height: 100vh;
+  overflow: scroll;
+}
+.table-full-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-head {
+  background-color: black;
+  color: white;
+}
+.table-head th {
+  padding: 1rem;
+}
+.table-full-container tbody tr {
+  max-height: 5vh;
+  text-align: center;
+}
+.table-full-container tbody tr td {
+  justify-self: center;
+  font-family: "Inter";
+  font-weight: 500;
+}
+.table-full-container img {
+  width: 100px;
+}
+.edit-delete-subcat {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+#edit-subcatogory {
+  background-color: rgb(115, 228, 115);
+  color: black;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+#delete-subcatogory {
+  background-color: rgb(249, 17, 17);
+  color: black;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}

@@ -1,0 +1,27 @@
+.hero-container {
+  position: relative;
+  justify-self: center;
+  width: 90%;
+  min-height: 300px;
+  border-radius: 1rem;
+}
+.hero-container img {
+  width: 100%;
+  height: 300px;
+  border-radius: 1rem;
+}
+.hero-container div {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-size: 3rem;
+  width: 30%;
+}
+.hero-container p {
+}
+.hero-container button {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: none;
+}

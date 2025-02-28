@@ -1,0 +1,26 @@
+.cancell-container {
+  width: 50%;
+  justify-self: center;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  height: 50vh;
+  justify-content: center;
+}
+.cancell-container p {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#go-back {
+  border: 2px solid green;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  background-color: initial;
+  text-decoration: none;
+}

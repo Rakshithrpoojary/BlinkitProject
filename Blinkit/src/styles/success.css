@@ -1,0 +1,26 @@
+.success-container {
+  width: 500px;
+  justify-self: center;
+  background-color: #bbf7d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  height: 50vh;
+  justify-content: center;
+}
+.success-container p {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#go-home {
+  border: 2px solid green;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  background-color: initial;
+  text-decoration: none;
+}

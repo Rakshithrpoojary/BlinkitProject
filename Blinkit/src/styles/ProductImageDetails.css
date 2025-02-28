@@ -1,0 +1,106 @@
+.product-image-details-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: white; */
+  border-radius: 1rem;
+}
+@media only screen and (max-width: 1200px) {
+  .product-image-details-container {
+    width: 90%;
+  }
+}
+.product-main-img {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+#productimages {
+  width: 400px;
+  height: 400px;
+}
+.product-sub-img img {
+  width: 100px;
+}
+.bubbles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #eff6ff;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+#child-bubbles {
+  width: 25px;
+  height: 25px;
+  border-radius: 5rem;
+}
+.product-sub-img {
+  display: flex;
+  width: 90%;
+  gap: 2rem;
+  overflow: scroll;
+  background-color: #eff6ff;
+}
+.product-img-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#scroll-product-right {
+  cursor: pointer;
+  position: absolute;
+  z-index: 9;
+  left: 95%;
+  padding: 0.1rem 0.2rem 0 0.2rem;
+  font-size: 1.5rem;
+
+  top: 35%;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 2px rgb(134, 129, 129);
+}
+#scroll-product-left {
+  cursor: pointer;
+  position: absolute;
+  z-index: 9;
+  right: 95%;
+  font-size: 1.5rem;
+  top: 35%;
+  background-color: white;
+  padding: 0.1rem 0.2rem 0 0.2rem;
+
+  border-radius: 2rem;
+  box-shadow: 0 5px 10px 2px rgb(134, 129, 129);
+}
+#product-imgs {
+  margin: 1rem;
+  width: 100px;
+  height: 150px;
+  cursor: pointer;
+}
+.product-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #eff6ff;
+  width: 100%;
+}
+.product-text-container h5 {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(64, 64, 64);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.product-text-container p {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgb(64, 64, 64);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
